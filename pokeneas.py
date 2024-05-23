@@ -6,7 +6,7 @@ pokeneas = [
         "nombre": "Pokenea1",
         "altura": 1.2,
         "habilidad": "Volar",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea1.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea1.png",
         "frase_filosofica": "La vida es un viaje, no un destino."
     },
     {
@@ -14,7 +14,7 @@ pokeneas = [
         "nombre": "Pokenea2",
         "altura": 1.0,
         "habilidad": "Nadar",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea2.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea2.png",
         "frase_filosofica": "El conocimiento es poder."
     },
     {
@@ -22,7 +22,7 @@ pokeneas = [
         "nombre": "Pokenea3",
         "altura": 1.5,
         "habilidad": "Correr",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea3.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea3.png",
         "frase_filosofica": "La paciencia es una virtud."
     },
     # Agregar 7 Pokeneas más
@@ -31,7 +31,7 @@ pokeneas = [
         "nombre": "Pokenea4",
         "altura": 1.1,
         "habilidad": "Saltar",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea4.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea4.png",
         "frase_filosofica": "La creatividad es la inteligencia divirtiéndose."
     },
     {
@@ -39,7 +39,7 @@ pokeneas = [
         "nombre": "Pokenea5",
         "altura": 1.3,
         "habilidad": "Escalar",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea5.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea5.png",
         "frase_filosofica": "La persistencia es el camino al éxito."
     },
     {
@@ -47,7 +47,7 @@ pokeneas = [
         "nombre": "Pokenea6",
         "altura": 1.0,
         "habilidad": "Camuflarse",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea6.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea6.png",
         "frase_filosofica": "La simplicidad es la máxima sofisticación."
     },
     {
@@ -55,7 +55,7 @@ pokeneas = [
         "nombre": "Pokenea7",
         "altura": 1.4,
         "habilidad": "Resistir",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea7.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea7.png",
         "frase_filosofica": "El cambio es la única constante."
     },
     {
@@ -63,7 +63,7 @@ pokeneas = [
         "nombre": "Pokenea8",
         "altura": 1.2,
         "habilidad": "Invisibilidad",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea8.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea8.png",
         "frase_filosofica": "El coraje es la resistencia al miedo."
     },
     {
@@ -71,7 +71,7 @@ pokeneas = [
         "nombre": "Pokenea9",
         "altura": 1.5,
         "habilidad": "Regenerar",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea9.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea9.png",
         "frase_filosofica": "La esperanza es la cosa con plumas."
     },
     {
@@ -79,7 +79,7 @@ pokeneas = [
         "nombre": "Pokenea10",
         "altura": 1.1,
         "habilidad": "Transformar",
-        "imagen": "https://storage.googleapis.com/BUCKET_NAME/pokenea10.png",
+        "imagen": "https://storage.googleapis.com/pokenea_bucket21/pokenea10.png",
         "frase_filosofica": "La imaginación es más importante que el conocimiento."
     }
 ]
