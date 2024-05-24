@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ master ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ master ]
 
 jobs:
 
@@ -14,5 +14,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: docker login
+      env:
+        DOCKER_USER: ${{secrets.DOCKERHUB_USER}}
+        DOCKER_PASS: ${{secrets.DOCKERHUB_PASS}}
+      run: |
+        docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag sariash2209/tallerfinal:latest
+      
+    - name: Docker Push
+      run: docker push sariash2209/tallerfinal
