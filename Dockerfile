@@ -1,20 +1,16 @@
-# Usar una imagen base de Python
-FROM python:3.8-slim
+FROM python:3.8
 
-# Establecer el directorio de trabajo en el contenedor
-WORKDIR /app
+# Create app directory
+WORKDIR /usr/src/app
 
-# Copiar los archivos de requerimientos al contenedor
-COPY requirements.txt requirements.txt
-
-# Instalar las dependencias
-RUN pip install -r requirements.txt
-
-# Copiar el resto de los archivos de la aplicación al contenedor
+# Copy the Flask app source to the working directory
 COPY . .
 
-# Exponer el puerto en el que correrá la aplicación
-EXPOSE 5000
+# Install Flask
+RUN pip install -r requirements.txt
 
-# Comando para correr la aplicación
+# Expose the required port
+EXPOSE 8080
+
+# Specify the command to run the Flask app
 CMD ["python", "app.py"]
