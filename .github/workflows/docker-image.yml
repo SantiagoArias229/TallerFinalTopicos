@@ -18,7 +18,7 @@ jobs:
       env:
         DOCKER_USER: ${{secrets.DOCKERHUB_USER}}
         DOCKER_PASS: ${{secrets.DOCKERHUB_PASS}}
-      run:
+      run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag sariash2209/tallerfinal:latest
